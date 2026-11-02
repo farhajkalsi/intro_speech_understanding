@@ -30,7 +30,7 @@ def matched_identity(x):
     @result:
     I (array): a 2d numpy array: an NxN identity matrix
     '''
-    I =  0 # change this line
+    I =  np.eye(len(x))
     return I
 
 def sine_and_cosine(t_start, t_end, t_steps):
